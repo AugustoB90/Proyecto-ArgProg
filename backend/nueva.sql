@@ -1,0 +1,7 @@
+-- Connection Id: 8
+-- User: root
+-- Host: localhost
+-- DB: nueva
+-- Command: Sleep
+-- Time: 76
+-- State: None
