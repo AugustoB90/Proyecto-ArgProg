@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIENVENIDOS AL PROYECTO BDD DE EMPLEADOS!</title>
+	<style>
+		body {
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		form {
+			background-color: #fff;
+			padding: 20px;
+			max-width: 400px;
+			margin: 0 auto;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+
+		h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin: 12px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+		input[type="submit"] {
+			background-color: #5bb7e2;
+			color: white;
+			padding: 9px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: right;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #5bb7e2;
+		}
+	</style>
+</head>
+<body>
+
+	<form action="#" method="post">
+		<h2>INGRESE</h2>
+
+		<div>
+			<label for="username">USUARIO:</label>
+			<input type="text" id="username" name="username" required>
+		</div>
+
+		<div>
+			<label for="password">CONTRASEÑA:</label>
+			<input type="password" id="password" name="password" required>
+		</div>
+
+		<div>
+			<input type="submit" value="Login">
+		</div>
+	</form>
+
+</body>
+</html>
